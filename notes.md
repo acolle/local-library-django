@@ -6,3 +6,5 @@ You should re-run migrations and re-test the site whenever you make significant 
 A view is a function that processes an HTTP request, fetches the required data from the database, renders the data in an HTML page using an HTML template, and then returns the generated HTML in an HTTP response to display the page to the user
 
 You can easily recognise template variables and template tags (functions) - variables are enclosed in double braces ({{ num_books }}), and tags are enclosed in single braces with percentage signs ({% extends "base_generic.html" %}).
+
+As a challenge, consider how you might encode a URL to list all books released in a particular year, month, day, and the RE that could be used to match it.
